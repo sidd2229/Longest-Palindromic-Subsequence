@@ -1,4 +1,7 @@
 # Longest Palindromic Subsequence (LPS)
+## 🔗 Problem Link
+LeetCode: https://leetcode.com/problems/longest-palindromic-subsequence/
+
 
 ## 🧩 Problem Statement
 Given a string `s`, the task is to find the length of the longest subsequence that forms a palindrome.  
