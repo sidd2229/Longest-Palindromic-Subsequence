@@ -26,10 +26,13 @@ Identifying how the state transitions change based on character matches (`s[i] =
 ---
 
 ## 🧠 Recurrence Relation
+```text
 if s[i] == s[j]:
-dp[i][j] = 2 + dp[i+1][j-1]
+    dp[i][j] = 2 + dp[i+1][j-1]
 else:
-dp[i][j] = max(dp[i+1][j], dp[i][j-1])
+    dp[i][j] = max(dp[i+1][j], dp[i][j-1])
+```
+
 
 
 ## 📘 Example
